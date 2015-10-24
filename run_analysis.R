@@ -81,3 +81,12 @@ pruned_set <- select(merged_set, Subject.ID, Activity, std_and_mean_names)
 ### Changes to descriptive activity names
 pruned_set$Activity <- mapvalues(pruned_set$Activity, from = c(1,2,3,4,5,6), to = c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"))
 
+
+### Creates new tidy dataset with with the average of each variable for each activity and each subject.
+subject_grouped <- group_by(pruned_set, Subject.ID, Activity)
+
+summarise(subject_grouped, tBodyAcc.mean...X = mean(tBodyAcc.mean...X))
+subjects_mean <- summarise_each(subject_grouped, funs(mean), -Subject.ID, -Activity)
+
+### Writes pruned_set to tidy_data.txt
+write.table(subjects_mean, file="../tidy_data.txt", row.names = FALSE)
