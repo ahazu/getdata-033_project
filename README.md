@@ -22,6 +22,6 @@ The script exchanges the activity codes with the descriptive names.
 
 A new tidy dataset is created containing the averages for each activity and each subject. This dataset is written to file  (tidy_data.txt).
 
-A codebook (codebook.txt) can be found in the repository.
+A codebook (<a href="https://github.com/ahazu/getdata-033_project/blob/master/codebook.txt">codebook.txt</a>) can be found in the repository.
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
