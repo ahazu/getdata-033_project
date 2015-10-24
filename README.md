@@ -22,4 +22,4 @@ The script exchanges the activity codes with the descriptive names.
 
 A new tidy dataset is created containing the averages for each activity and each subject. This dataset is written to file  (tidy_data.txt).
 
-A codebook (codebook.pdf) can be found in the repository.
+A codebook (codebook.txt) can be found in the repository.
