@@ -1,0 +1,328 @@
+CODEBOOK - Coursera course getdata-033
+
+Subject.ID
+	The subject who performed the activity 
+		1 - 30
+	
+Activity  
+	Activity performed by Subject during time slize
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
+tBodyAcc.mean...X  
+	Time body acceleration mean on X axis
+		Decimal value
+
+tBodyAcc.mean...Y  
+	Time body acceleration mean on Y axis
+		Decimal value
+tBodyAcc.mean...Z  
+	Time body acceleration mean on Z axis
+		Decimal value
+
+tBodyAcc.std...X  
+	Time body acceleration standard deviation on X axis
+		Decimal value
+		
+tBodyAcc.std...Y  
+	Time body acceleration standard deviation on Y axis
+		Decimal value
+tBodyAcc.std...Z  
+	Time body acceleration standard deviation on Z axis
+		Decimal value 
+
+tGravityAcc.mean...X  
+	Time gravity acceleration mean on X axis
+		Decimal value
+		
+tGravityAcc.mean...Y  
+ 	Time gravity acceleration mean on Y axis
+		Decimal value
+		
+tGravityAcc.mean...Z
+	Time gravity acceleration mean on Z axis
+		Decimal value 
+		
+tGravityAcc.std...X  
+	Time gravity acceleration standard deviation on X axis
+		Decimal value
+		
+tGravityAcc.std...Y  
+ 	Time gravity acceleration standard deviation on Y axis
+		Decimal value
+		
+tGravityAcc.std...Z 
+	Time gravity acceleration standard deviation on Z axis
+		Decimal value 
+		
+tBodyAccJerk.mean...X  
+	Time body acceleration jerk mean on X axis
+		Decimal value
+		
+tBodyAccJerk.mean...Y  
+ 	Time body acceleration jerk mean on Y axis
+		Decimal value
+
+tBodyAccJerk.mean...Z  
+ 	Time body acceleration jerk mean on Z axis
+		Decimal value
+
+tBodyAccJerk.std...X  
+	Time body acceleration jerk standard deviation on X axis
+		Decimal value
+		
+tBodyAccJerk.std...Y
+	Time body acceleration jerk standard deviation on X axis
+		Decimal value 
+		
+tBodyAccJerk.std...Z
+	Time body acceleration jerk standard deviation on X axis
+		Decimal value 
+		
+tBodyGyro.mean...X  
+	Time body gyroscope mean on X axis
+		Decimal value
+		
+tBodyGyro.mean...Y  
+ 	Time body gyroscope mean on Y axis
+		Decimal value
+		
+tBodyGyro.mean...Z  
+ 	Time body gyroscope mean on Z axis
+		Decimal value
+		
+tBodyGyro.std...X  
+  	Time body gyroscope standard deviation on X axis
+		Decimal value
+		
+tBodyGyro.std...Y  
+   	Time body gyroscope standard deviation on Y axis
+		Decimal value
+		
+tBodyGyro.std...Z  
+   	Time body gyroscope standard deviation on Z axis
+		Decimal value
+		
+tBodyGyroJerk.mean...X  
+   	Time body gyroscope jerk mean on X axis
+		Decimal value
+		
+tBodyGyroJerk.mean...Y  
+   	Time body gyroscope jerk mean on Y axis
+		Decimal value
+		
+tBodyGyroJerk.mean...Z
+   	Time body gyroscope jerk mean on Z axis
+		Decimal value 
+		
+tBodyGyroJerk.std...X  
+    Time body gyroscope jerk standard deviation on X axis
+		Decimal value
+		
+tBodyGyroJerk.std...Y  
+     Time body gyroscope jerk standard deviation on Y axis
+		Decimal value
+		
+tBodyGyroJerk.std...Z
+    Time body gyroscope jerk standard deviation on Z axis
+		Decimal value 
+
+tBodyAccMag.mean..  
+    Time body acceleration magnitude mean
+		Decimal value
+		
+tBodyAccMag.std..  
+    Time body acceleration magnitude standard deviation 
+		Decimal value
+		
+tGravityAccMag.mean..  
+    Time gravity acceleration magnitude mean
+		Decimal value
+		
+tGravityAccMag.std..  
+     Time gravity acceleration magnitude standard deviation
+		Decimal value
+		
+tBodyAccJerkMag.mean.. 
+    Time body acceleration jerk magnitude mean
+		Decimal value
+		
+tBodyAccJerkMag.std..  
+    Time body acceleration jerk magnitude standard deviation
+		Decimal value
+		
+tBodyGyroMag.mean..  
+    Time body gyroscope magnitude mean
+		Decimal value
+		
+tBodyGyroMag.std..  
+    Time body gyroscope magnitude standard deviation
+		Decimal value
+		
+tBodyGyroJerkMag.mean..  
+    Time body gyroscope jerk magnitude mean
+		Decimal value
+		
+tBodyGyroJerkMag.std..  
+    Time body gyroscope jerk magnitude standard deviation
+		Decimal value
+
+fBodyAcc.mean...X  
+    Frequency domain signal: body acceleration mean on X axis
+		Decimal value
+		
+fBodyAcc.mean...Y  
+	Frequency domain signal: body acceleration mean on Y axis
+		Decimal value	
+		
+fBodyAcc.mean...Z  
+	Frequency domain signal: body acceleration mean on X axis
+		Decimal value
+		
+fBodyAcc.std...X  
+	Frequency domain signal: body acceleration standard deviation on X axis
+		Decimal value
+		
+fBodyAcc.std...Y  
+	Frequency domain signal: body acceleration standard deviation on Y axis
+		Decimal value
+		
+fBodyAcc.std...Z  		
+	Frequency domain signal: body acceleration standard deviation on Z axis
+		Decimal value
+		
+fBodyAcc.meanFreq...X  
+	Frequency domain signal: body acceleration mean frequency on X axis
+		Decimal value
+		
+fBodyAcc.meanFreq...Y  
+	Frequency domain signal: body acceleration mean frequency on Y axis
+		Decimal value
+		
+fBodyAcc.meanFreq...Z  
+	Frequency domain signal: body acceleration mean frequency on Z axis
+		Decimal value
+		
+fBodyAccJerk.mean...X  
+	Frequency domain signal: body acceleration jerk mean on X axis
+		Decimal value
+		
+fBodyAccJerk.mean...Y  
+	Frequency domain signal: body acceleration jerk mean on Y axis
+		Decimal value
+		
+fBodyAccJerk.mean...Z  
+	Frequency domain signal: body acceleration jerk mean on Z axis
+		Decimal value
+		
+fBodyAccJerk.std...X  
+	Frequency domain signal: body acceleration jerk standard deviation on X axis
+		Decimal value
+		
+fBodyAccJerk.std...Y  
+	Frequency domain signal: body acceleration jerk standard deviation on Y axis
+		Decimal value
+		
+fBodyAccJerk.std...Z  
+	Frequency domain signal: body acceleration jerk standard deviation on Z axis
+		Decimal value
+		
+fBodyAccJerk.meanFreq...X  
+	Frequency domain signal: body acceleration jerk mean frequency on X axis
+		Decimal value
+		
+fBodyAccJerk.meanFreq...Y  
+	Frequency domain signal: body acceleration jerk mean frequency on Y axis
+		Decimal value
+		
+fBodyAccJerk.meanFreq...Z  
+	Frequency domain signal: body acceleration jerk mean frequency on Z axis
+		Decimal value
+		
+fBodyGyro.mean...X  
+	Frequency domain signal: body gyroscope mean on X axis
+		Decimal value
+		
+fBodyGyro.mean...Y  
+	Frequency domain signal: body gyroscope mean on Y axis
+		Decimal value
+		
+fBodyGyro.mean...Z  
+	Frequency domain signal: body gyroscope mean on Z axis
+		Decimal value
+		
+fBodyGyro.std...X  
+	Frequency domain signal: body gyroscope standard deviation on X axis
+		Decimal value
+		
+fBodyGyro.std...Y  
+	Frequency domain signal: body gyroscope standard deviation on Y axis
+		Decimal value
+		
+fBodyGyro.std...Z  
+	Frequency domain signal: body gyroscope standard deviation on Z axis
+		Decimal value
+		
+fBodyGyro.meanFreq...X  
+	Frequency domain signal: body gyroscope mean frequency on X axis
+		Decimal value
+
+fBodyGyro.meanFreq...Y  
+	Frequency domain signal: body gyroscope mean frequency on Y axis
+		Decimal value
+
+fBodyGyro.meanFreq...Z
+	Frequency domain signal: body gyroscope mean frequency on Z axis
+		Decimal value  
+
+fBodyAccMag.mean..  
+	Frequency domain signal: body acceleration magnitude mean
+		Decimal value
+
+fBodyAccMag.std..  
+	Frequency domain signal: body acceleration magnitude standard deviation
+		Decimal value
+
+fBodyAccMag.meanFreq..  
+	Frequency domain signal: body acceleration magnitude mean frequency
+		Decimal value
+
+fBodyBodyAccJerkMag.mean..  
+	Frequency domain signal: body acceleration jerk magnitude mean
+		Decimal value
+
+fBodyBodyAccJerkMag.std..  
+	Frequency domain signal: body body acceleration jerk magnitude standard deviation
+		Decimal value
+		
+fBodyBodyAccJerkMag.meanFreq.. 
+	Frequency domain signal: body body acceleration jerk magnitude mean frequency
+		Decimal value 
+		
+fBodyBodyGyroMag.mean..
+	Frequency domain signal: body body gyroscope magnitude mean
+		Decimal value  
+		
+fBodyBodyGyroMag.std..  
+	Frequency domain signal: body body gyroscope magnitude standard deviation
+		Decimal value
+
+fBodyBodyGyroMag.meanFreq..  
+	Frequency domain signal: body body gyroscope magnitude mean frequency
+		Decimal value
+
+fBodyBodyGyroJerkMag.mean..  
+	Frequency domain signal: body body gyroscope jerk magnitude mean
+		Decimal value
+
+fBodyBodyGyroJerkMag.std.. 
+	Frequency domain signal: body body gyroscope jerk magnitude standard deviation
+		Decimal value 
+
+fBodyBodyGyroJerkMag.meanFreq.. 
+	Frequency domain signal: body body gyroscope jerk magnitude mean frequency
+		Decimal value
